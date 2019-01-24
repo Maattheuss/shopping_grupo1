@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário</title>
+</head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="formulario1.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<body>
+  
+			<button class=voltar>
+            	<a href="index.html">VOLTAR</a><br>
+            </button>
+            <br>
+            
+  <section class="container">
+  <h1>FORMULÁRIO DE CADASTRO</h1>
+  <form id="form-contact" method="POST" action="mailchimp-contact.php">
+
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" placeholder="Digite seu nome" required class="form-control">
+       	</div>
+      </div>
+ 
+
+  	<div class="col-md-6">
+      <div class="form-group">
+        <label for="name">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="email@email.com" required class="form-control">
+        </div>
+      </div>
+
+     <div class="col-md-6">
+      <div class="form-group">
+        <label for="name">Telefone</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(DDD) 0000-0000" required class="form-control">
+       </div>
+     </div>
+
+     <div class="col-md-6">
+      <div class="form-group">
+        <label for="name">Celular</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(DDD) 00000-0000" required class="form-control">
+        </div>
+     </div>
+
+
+     <div class="input txt">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" cols="100" rows="5" placeholder="Texto com limitação de 300 caracteres" required></textarea>
+     </div>
+
+
+
+
+</form>
+</section>
+
+</body>
+</html>
