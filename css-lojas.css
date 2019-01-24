@@ -1,0 +1,32 @@
+body{
+	background-color: #DCDCDC;
+}
+
+.container{
+	width: 30%;
+	height: 940px;
+	background-color:#4682B4;
+	padding-right:30px;
+	padding-left: 30px;
+	margin-right:auto; 
+	margin-left:auto;
+
+}
+
+.letra{
+	font: verdana;
+	font-style: normal;
+	font-size: 20px;
+
+
+}
+
+.cont1{
+	float: left;
+	color: #FFD700;
+	background-color: #A9A9A9;
+	width: 350px;
+	height: auto;
+	margin-left: 20px;
+}
+}
